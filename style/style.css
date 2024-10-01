@@ -24,6 +24,8 @@ header ul li {
 section.Samantha{
     display: flex;
     margin: 3rem 5rem 3rem 10rem;
+    border-bottom: 1px solid gray;
+    padding: 0 0 6vw 0;
 }
 section.Samantha div.Mulher img {
     border-radius: 2000px;
@@ -36,13 +38,21 @@ section.Samantha h1{
     font-family: "Quicksand", sans-serif;
     font-weight: 600;
 }
-section.Samantha p{
+section.Samantha p.loren{
     font-family: "Quicksand", sans-serif;
-    padding: 3rem 0 0 0;
+    padding: 3rem 0 3rem 0;
 }
-section.Samantha p.wiliam{
+section.Samantha div.wiliam{
     font-weight: 600;
+    display: flex;
+}
+section.Samantha div.deladinho{
+    margin: 0.5vw 0 0 1vw ;
 }
 section.Samantha span.circulo{
     color: grey;
+}
+section.browse{
+    margin: 3rem 5rem 3rem 10rem;
+    display: flex;
 }
