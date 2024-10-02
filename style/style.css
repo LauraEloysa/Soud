@@ -55,4 +55,57 @@ section.Samantha span.circulo{
 section.browse{
     margin: 3rem 5rem 3rem 10rem;
     display: flex;
+    border-bottom: 1px solid black;
+    padding: 0 0 5vw 0;
+}
+section.browse h1 {
+    font-size: 3.6rem;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+}
+section.browse div.primeira p{
+    font-family: "Quicksand", sans-serif;
+    margin: 2.5vw 0 0 0;
+    font-size: 1.2rem;
+}
+section.browse div.lista ul  {
+    font-family: "Quicksand", sans-serif;
+    padding-left: 15vw;
+}
+section.browse div.lista ul li {
+    border-bottom: 1px solid gray;
+    padding: 0 5vw 2vw 0;
+}
+section.browse div.lista ul li.sem{
+    border: none;
+}
+section.browse div.lista ul p.titulo {
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding: 2vw 0 2vw 0;
+}
+section.browse div.lista ul p.titulo span{
+    font-size: 1.4rem;
+    color: gray;
+    margin: 0 1vw 0 0;
+    font-weight: 400;
+}
+section.browse div.lista ul li p.subtitulo{
+    font-weight: 400;
+    color: gray;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    padding: 1vw 0 0 0 ;
+}
+footer ul li{
+    padding-left: 1.5vw;
+    font-size: 1.5rem;
+}
+footer p {
+    font-size: small;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    margin: 1vw 0 4vw 0;
 }
